@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav .nav-first{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav .nav-first-main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 4rem;
+}
+.nav .nav-first-main ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+.nav .nav-second ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
