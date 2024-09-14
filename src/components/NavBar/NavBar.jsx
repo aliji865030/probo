@@ -22,10 +22,10 @@ const NavBar = () => {
 
         </div>
 
-        <div>
-            <span>For 18 years and above only</span>
+        <div className='nav-btn'>
+            <span >For 18+</span>
             <button>Download App</button>
-            <button>Login/Signup</button>
+            <button className='login-btn'>Login/Signup</button>
             <img src="https://probo.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftranslation.5ad894fb.png&w=32&q=75" alt="" />
 
         </div>
