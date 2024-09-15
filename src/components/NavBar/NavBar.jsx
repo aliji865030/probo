@@ -10,7 +10,7 @@ const NavBar = () => {
                 <img src="https://probo.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.b8a0a3e7.webp&w=128&q=75" alt="" />
             </div>
 
-            <div>
+            <div className='nav-first-main2'>
                 <ul>
                     <li>Trading</li>
                     <li>Team 11</li>

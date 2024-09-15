@@ -1,6 +1,7 @@
 .event{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     padding: 20px 0;
     padding-bottom: 50px;
@@ -16,8 +17,6 @@
 }
 .event-card div{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
 }
 .event-card p , .event-card label{
     font-size: 13px;
@@ -56,4 +55,19 @@
 .event-card .card-btn button:last-child{
     color: red;
     background-color: #fef6f5;
+}
+
+
+@media (max-width:550px) {
+    .event-card{
+        width: 400px;
+    }
+}
+@media (max-width:430px) {
+    .event-card{
+        width: 300px;
+    }
+    .event-card .card-btn button{
+        padding: 10px 20px;
+    }
 }

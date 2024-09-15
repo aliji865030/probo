@@ -14,7 +14,7 @@ const App = () => {
       </div>
       <hr />
       <AboutUs/>
-
+      <hr />
     </div>
   )
 }
